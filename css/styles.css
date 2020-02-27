@@ -1,10 +1,109 @@
-/* My Awesome Styles */
+body  {
+  display: inline-block;
+  background: linear-gradient(skyblue, lightyellow);
+}
 
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
+main { 
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cast {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trailer {
+   display: flex;
+   justify-content: center; 
+}
+
+/*Font Styling */
+
+h1 {
+  font-family: 'Anton';
+  font-style: sans-serif;
+  color: #fffeb3;
+  font-size: 6em;
+  text-align: center;
+  
+}
+
+h2  {
+  font-family: 'Anton';
+  text-align: center;
+}
+
+h4  {
+  text-align: center;
+  font-family: 'Fjalla One';
+}
+
+blockquote  {
+  font-family: 'Ultra';
+  color: #fb2e01;
+  text-align: center;
+  font-size: .5em;
+}
+
+p {
+  font-family: 'Fjalla One';
+  color: #666547;
+  display: inline-block;
+}
+
+ul {
+  font-family: 'Ultra';
+  color: #fb2e01;
+}
+
+li  {
+  color: #fb2e01;
+}
+
+/* Media Queries borrowed from: */
+/* 
+  Mobile: 
+  * 320px = 20em
+  * 767px = 47.9375em
+*/
+@media only screen 
+  and (min-width: 0) 
+  and (max-width: 48em)  { 
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Mobile Size";
+    }
+    
+    .cast {
+      text-align: center;
+      justify-content: center;
+    }
+  
+}
+
+/* Tablet:  
+  * 768px = 48em 
+    1023px = 63.9375em;
+*/
+@media only screen 
+  and (min-width: 48em) 
+  and (max-width: 64em)
+
+/* Desktop: 
+  * 1024px = 64em
+  * 64em and larger
 */
 
-* {
-    outline: 1px dotted black;
-}
+@media screen 
+  and (min-width: 64em) 
+  and (max-width: 90em)
+
+/* Wide Desktop: 
+  * 1440px = 90em
+  * 90em and wider
+*/
+@media screen and (min-width: 90em);
