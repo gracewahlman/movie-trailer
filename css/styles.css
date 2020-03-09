@@ -59,7 +59,8 @@ h1  {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
-  margin: 500px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 img {
