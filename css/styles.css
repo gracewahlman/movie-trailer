@@ -54,6 +54,13 @@ h4  {
   color: #fb2e01;
 }
 
+.introducing  {
+  font-family: 'Fjalla One';
+  color: #fffeb3;
+  font-size: 3em;
+  text-align: center;
+}
+
 blockquote  {
   font-family: 'Ultra';
   color: #fb2e01;
