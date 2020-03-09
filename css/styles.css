@@ -33,6 +33,12 @@ section {
 }
 
 /*Font Styling */
+h1  {
+  font-family: 'Fjalla One';
+  text-align: center;
+  color: #79B47C;
+  font-size: 5em;
+}
 
 .introducing  {
   font-family: 'Fjalla One';
