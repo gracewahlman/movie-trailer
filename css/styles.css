@@ -45,11 +45,13 @@ h1 {
 h2  {
   font-family: 'Anton';
   text-align: center;
+  color: #666547;
 }
 
 h4  {
   text-align: center;
   font-family: 'Fjalla One';
+  color: #fb2e01;
 }
 
 blockquote  {
@@ -64,6 +66,7 @@ blockquote  {
   color: #666547;
   display: center;
   margin: 0 auto;
+  text-align: center;
 }
 
 .cast {
