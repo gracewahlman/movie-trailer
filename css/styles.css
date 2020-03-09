@@ -1,22 +1,35 @@
 body  {
   display: inline-block;
-  background: linear-gradient(skyblue, lightyellow);
+  background: linear-gradient(skyblue, lightyellow, orange);
 }
 
-main { 
+.trailer-container {
+   text-align: center;
+}
+
+.trailer  {
+  display: block;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
-.cast {  
-  display: flex;
-  flex-wrap: wrap;
+#player {
+   justify-content: center;
 }
 
-.trailer {
-   display: flex;
-   justify-content: center; 
+section {
+  width: 50%;
+}
+
+.plyr--full-ui input[type="range"] {
+  color: #fffeb3;
+}
+
+.plyr__time {
+  font-size: 14px;
+}
+
+.plyr button {
+  color: yellow;
 }
 
 /*Font Styling */
@@ -27,7 +40,6 @@ h1 {
   color: #fffeb3;
   font-size: 6em;
   text-align: center;
-  
 }
 
 h2  {
@@ -43,26 +55,29 @@ h4  {
 blockquote  {
   font-family: 'Ultra';
   color: #fb2e01;
+  font-size: 2em;
   text-align: center;
-  font-size: .5em;
 }
 
-p {
+.info {
   font-family: 'Fjalla One';
   color: #666547;
-  display: inline-block;
+  display: center;
+  margin: 0 auto;
 }
 
-ul {
+.cast {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    }
+
+ul, li {
   font-family: 'Ultra';
   color: #fb2e01;
 }
 
-li  {
-  color: #fb2e01;
-}
-
-/* Media Queries borrowed from: */
+/* Media Queries borrowed from: https://codepen.io/manikoth/pen/EgGZKB*/
 /* 
   Mobile: 
   * 320px = 20em
@@ -70,20 +85,8 @@ li  {
 */
 @media only screen 
   and (min-width: 0) 
-  and (max-width: 48em)  { 
-    
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Mobile Size";
-    }
-    
-    .cast {
-      text-align: center;
-      justify-content: center;
-    }
-  
-}
+  and (max-width: 48em)
+ 
 
 /* Tablet:  
   * 768px = 48em 
@@ -97,13 +100,12 @@ li  {
   * 1024px = 64em
   * 64em and larger
 */
-
 @media screen 
   and (min-width: 64em) 
-  and (max-width: 90em)
+  and (max-width: 90em);
 
 /* Wide Desktop: 
   * 1440px = 90em
   * 90em and wider
 */
-@media screen and (min-width: 90em);
+@media screen and (min-width: 90em)
