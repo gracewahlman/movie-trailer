@@ -46,7 +46,9 @@ h1  {
   font-family: 'Fjalla One';
   text-align: center;
   color: #79B47C;
-  font-size: 6em;
+  font-size: 8em;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #ffa500;
 }
 
 .introducing  {
