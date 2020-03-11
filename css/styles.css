@@ -84,10 +84,10 @@ img {
 }
 
 h2  {
-  font-family: 'Anton';
+  font-family: 'Fjalla One';
   text-align: center;
   position: relative;
-  color: #666547;
+  color: #b0e0e6;
 }
 
 h4  {
@@ -109,7 +109,7 @@ a:link {
 }
 
 a:hover{
-  color: #fb2e01;
+  color: #b0e0e6;
 }
 
 footer  {
