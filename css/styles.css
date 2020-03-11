@@ -83,13 +83,14 @@ img {
 
 .hanks  {
   text-align: center;
+  margin-bottom: 250px;
 }
 
 h2  {
   font-family: 'Fjalla One';
   text-align: center;
   position: relative;
-  color: #b0e0e6;
+  color: #72c8d2;
 }
 
 h4  {
