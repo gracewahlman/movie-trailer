@@ -65,6 +65,7 @@ h1  {
   margin: 0 auto;
   text-align: center;
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .cast { 
@@ -91,13 +92,15 @@ h2  {
   text-align: center;
   position: relative;
   color: #72c8d2;
+  font-size: 30px;
 }
 
 h4  {
   font-family: 'Fjalla One';
   text-align: center;
   position: relative;
-  color: #fb2e01;
+  color: #ffa500;
+  font-size: 20px;
 }
 
 aside {
